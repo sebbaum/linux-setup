@@ -1,12 +1,10 @@
 #!/bin/bash
 
 # Install assuming always yes
-
-# install dropdown terminal
+sudo apt-get -y install chromium-browser
+# dropdown terminal
 sudo apt-get -y install yakuake
-
-# install maven
+# install git
+sudo apt-get -y install git
 sudo apt-get -y install maven
-
-# install xbindkeys to enable special key bindings
 sudo apt-get -y install xbindkeys xvkbd

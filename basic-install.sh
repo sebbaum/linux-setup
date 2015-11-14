@@ -8,3 +8,4 @@ sudo apt-get -y install yakuake
 sudo apt-get -y install git
 sudo apt-get -y install maven
 sudo apt-get -y install xbindkeys xvkbd
+sudo apt-get -y install keepass2

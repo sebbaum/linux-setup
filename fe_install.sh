@@ -6,3 +6,6 @@ apt-get install nodejs -y
 
 # install bower
 npm install -g bower
+
+# install gulp
+npm install --global gulp

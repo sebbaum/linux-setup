@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install nodejs
-curl -sL https://deb.nodesource.com/setup_5.x | bash -
+curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 apt-get install nodejs -y
 
 # install bower

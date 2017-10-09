@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # install nodejs
-curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
-apt-get install nodejs -y
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 # update npm to latest version
 # cd /usr/local/lib/node_modules/

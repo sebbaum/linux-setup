@@ -16,3 +16,8 @@ source ~/.profile
 
 # install gulp
 npm install --global gulp
+
+### Having problems with nodejs 8 this helped to revert to version 6
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+apt-cache madison nodejs
+sudo apt-get install -y nodejs=6.12.3-1nodesource1

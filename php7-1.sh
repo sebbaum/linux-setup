@@ -2,7 +2,7 @@
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 
-sudo apt install php7.1 \
+sudo apt install php7.1-fpm \
 php7.1-common \
 php7.1-fpm \
 php7.1-json \
